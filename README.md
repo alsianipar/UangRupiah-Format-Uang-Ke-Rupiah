@@ -3,7 +3,7 @@ script simple php untuk konversi uang ke rupiah maupun ke bacaan uang
 
 # Contoh Penggunaan
 
-<span style="text:blue;"><?php</span>
+<?php
 require "UangRupiah.php";
 
 echo UangRupiah::formatRp(2345678901234) . "\n";
